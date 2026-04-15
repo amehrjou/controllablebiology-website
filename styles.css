@@ -112,12 +112,14 @@ button:focus-visible {
   letter-spacing: -0.01em;
 }
 
+.brand-logo {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
+
 .brand-mark {
-  width: 12px;
-  height: 12px;
-  border-radius: 999px;
-  background: var(--text);
-  opacity: 0.85;
+  display: none;
 }
 
 .brand-text {
@@ -167,6 +169,20 @@ button:focus-visible {
 .prelaunch .hero-overview {
   font-size: 1.02rem;
   max-width: 72ch;
+}
+
+.hero-logo {
+  display: block;
+  width: 180px;
+  height: 180px;
+  margin: 0 auto 32px;
+  object-fit: contain;
+}
+
+.prelaunch .hero-logo {
+  width: 220px;
+  height: 220px;
+  margin-bottom: 40px;
 }
 
 .hero-inner {
@@ -401,6 +417,13 @@ h3 {
   padding-top: 18px;
 }
 
+.footer-logo {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+  opacity: 0.4;
+}
+
 .footer-text {
   margin: 0;
   color: var(--muted);
@@ -435,6 +458,18 @@ h3 {
 
   .prelaunch .hero {
     padding: 88px 0 62px;
+  }
+
+  .hero-logo {
+    width: 140px;
+    height: 140px;
+    margin-bottom: 24px;
+  }
+
+  .prelaunch .hero-logo {
+    width: 170px;
+    height: 170px;
+    margin-bottom: 32px;
   }
 
   .prelaunch .hero-subtitle {
